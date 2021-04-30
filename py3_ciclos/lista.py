@@ -3,7 +3,7 @@ def lista(A,B):
   c=[]
   for i in range (n):
     h = ((A[i+1])**2)*(B[2*i])
-    f = h+(B[n+1])
+    f = h+(B[n+i])
     c.append(f)
   return c
 
